@@ -1,0 +1,23 @@
+﻿# Ignorar archivos y carpetas generados por la compilación
+bin/
+obj/
+
+# Ignorar archivos de configuración sensibles o locales
+appsettings.json
+*.config
+
+# Ignorar paquetes de NuGet (se restauran con el proyecto)
+packages/
+
+# Ignorar archivos temporales y de usuario
+*.log
+*.suo
+*.user
+
+# Ignorar carpetas de salida de compilación
+Debug/
+Release/
+
+# Ignorar archivos de proyecto generados o no esenciales
+*.csproj.user
+*.sln.docstates
