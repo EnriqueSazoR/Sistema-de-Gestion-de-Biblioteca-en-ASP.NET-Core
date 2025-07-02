@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using APIBiblioteca.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace APIBiblioteca.Data
 {
@@ -10,6 +11,10 @@ namespace APIBiblioteca.Data
         }
 
         // Colocar todos los modelos que se creen
-
+        DbSet<Libro> Libros { get; set; }
+        DbSet<Categoria> Categorias { get; set; }
+        DbSet<Usuario> Usuarios { get; set; }
+        DbSet<Rol> Roles { get; set; }
+             
     }
 }

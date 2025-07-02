@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\migrations\\20250702004023_modelosususarioroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\migrations\\20250702004023_modelosususarioroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\.gitignore",
-              "RelativeDocumentMoniker": "APIBiblioteca\\.gitignore",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\.gitignore",
-              "RelativeToolTip": "APIBiblioteca\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-01T01:37:02.761Z",
+              "Title": "20250702004023_ModelosUsusarioRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Migrations\\20250702004023_ModelosUsusarioRoles.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Migrations\\20250702004023_ModelosUsusarioRoles.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Migrations\\20250702004023_ModelosUsusarioRoles.cs",
+              "RelativeToolTip": "APIBiblioteca\\Migrations\\20250702004023_ModelosUsusarioRoles.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T00:40:24.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "APIBiblioteca\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T00:30:22.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Models\\Rol.cs",
+              "RelativeToolTip": "APIBiblioteca\\Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T00:26:11.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Models\\Usuario.cs",
+              "RelativeToolTip": "APIBiblioteca\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T00:03:01.786Z",
               "EditorCaption": ""
             }
           ]
