@@ -1,4 +1,4 @@
-Este Demuestra desarrollo backend en un contexto de biblioteca, cubre conceptos clave: autenticación con JWT, autorización por roles, diseño
+Este proyecto demuestra desarrollo backend en un contexto de biblioteca, cubre conceptos clave: autenticación con JWT, autorización por roles, diseño
 de bases de datos relacionales con Entity Framework Core y consultas avanzadas para reportes.
 
 # Funcionalidades que tendrá el proyecto
