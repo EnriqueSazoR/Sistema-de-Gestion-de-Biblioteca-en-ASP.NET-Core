@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\migrations\\20250702004023_modelosususarioroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\migrations\\20250702004023_modelosususarioroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\autenticacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\autenticacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\irepository\\iautenticacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\irepository\\iautenticacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250702004023_ModelosUsusarioRoles.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Migrations\\20250702004023_ModelosUsusarioRoles.cs",
-              "RelativeDocumentMoniker": "APIBiblioteca\\Migrations\\20250702004023_ModelosUsusarioRoles.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Migrations\\20250702004023_ModelosUsusarioRoles.cs",
-              "RelativeToolTip": "APIBiblioteca\\Migrations\\20250702004023_ModelosUsusarioRoles.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBUAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AutenticacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\AutenticacionRepository.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\AutenticacionRepository.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\AutenticacionRepository.cs",
+              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\AutenticacionRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T00:40:24.007Z",
+              "WhenOpened": "2025-07-06T18:33:20.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAutenticacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\IRepository\\IAutenticacionRepository.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\IRepository\\IAutenticacionRepository.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\IRepository\\IAutenticacionRepository.cs",
+              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\IRepository\\IAutenticacionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T18:32:59.938Z",
               "EditorCaption": ""
             },
             {
@@ -49,35 +66,35 @@
               "RelativeDocumentMoniker": "APIBiblioteca\\Data\\ApplicationDBContext.cs",
               "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\ApplicationDBContext.cs",
               "RelativeToolTip": "APIBiblioteca\\Data\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T00:30:22.677Z",
+              "WhenOpened": "2025-07-06T18:26:34.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Models\\Rol.cs",
-              "RelativeDocumentMoniker": "APIBiblioteca\\Models\\Rol.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Models\\Rol.cs",
-              "RelativeToolTip": "APIBiblioteca\\Models\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APIBiblioteca\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T00:26:11.085Z",
+              "WhenOpened": "2025-07-06T17:53:27.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "APIBiblioteca\\Models\\Usuario.cs",
               "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Models\\Usuario.cs",
               "RelativeToolTip": "APIBiblioteca\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T00:03:01.786Z",
+              "WhenOpened": "2025-07-06T17:37:21.403Z",
               "EditorCaption": ""
             }
           ]

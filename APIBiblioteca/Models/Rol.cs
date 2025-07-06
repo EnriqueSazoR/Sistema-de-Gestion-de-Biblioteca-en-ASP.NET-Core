@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace APIBiblioteca.Models
 {
@@ -11,6 +13,7 @@ namespace APIBiblioteca.Models
         public string NombreRol { get; set; } = string.Empty;
 
         // Navegación a tabla intermedia
+        [JsonIgnore]
         public ICollection<Usuario> Usuarios { get; set; } = new List<Usuario>();
     }
 }

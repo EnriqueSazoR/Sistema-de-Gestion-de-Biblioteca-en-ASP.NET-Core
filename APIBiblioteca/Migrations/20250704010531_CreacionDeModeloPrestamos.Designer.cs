@@ -4,6 +4,7 @@ using APIBiblioteca.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APIBiblioteca.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    partial class ApplicationDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250704010531_CreacionDeModeloPrestamos")]
+    partial class CreacionDeModeloPrestamos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -119,23 +122,6 @@ namespace APIBiblioteca.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Roles");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            NombreRol = "Cliente"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            NombreRol = "Admin"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            NombreRol = "Bibliotecario"
-                        });
                 });
 
             modelBuilder.Entity("APIBiblioteca.Models.Usuario", b =>
@@ -156,8 +142,8 @@ namespace APIBiblioteca.Migrations
 
                     b.Property<string>("PasswordHash")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.HasKey("Id");
 
@@ -199,7 +185,7 @@ namespace APIBiblioteca.Migrations
                         .IsRequired();
 
                     b.HasOne("APIBiblioteca.Models.Usuario", "usuario")
-                        .WithMany("Prestamos")
+                        .WithMany("prestamos")
                         .HasForeignKey("IdUsuario")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -231,7 +217,7 @@ namespace APIBiblioteca.Migrations
 
             modelBuilder.Entity("APIBiblioteca.Models.Usuario", b =>
                 {
-                    b.Navigation("Prestamos");
+                    b.Navigation("prestamos");
                 });
 #pragma warning restore 612, 618
         }

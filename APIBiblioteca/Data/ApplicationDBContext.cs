@@ -10,11 +10,23 @@ namespace APIBiblioteca.Data
         {
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Rol>().HasData(
+              new Rol { Id = 1, NombreRol = "Cliente"},
+              new Rol { Id = 2, NombreRol = "Admin"},
+              new Rol { Id = 3, NombreRol = "Bibliotecario"}
+            
+            );
+        }
+
+
         // Colocar todos los modelos que se creen
-        DbSet<Libro> Libros { get; set; }
-        DbSet<Categoria> Categorias { get; set; }
-        DbSet<Usuario> Usuarios { get; set; }
-        DbSet<Rol> Roles { get; set; }
+       public  DbSet<Libro> Libros { get; set; }
+       public DbSet<Categoria> Categorias { get; set; }
+       public  DbSet<Usuario> Usuarios { get; set; }
+       public DbSet<Rol> Roles { get; set; }
+       public  DbSet<Prestamo> Prestamos { get; set; }
              
     }
 }

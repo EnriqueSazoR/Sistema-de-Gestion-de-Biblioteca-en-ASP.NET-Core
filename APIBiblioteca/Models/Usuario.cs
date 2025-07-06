@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace APIBiblioteca.Models
 {
@@ -16,10 +18,13 @@ namespace APIBiblioteca.Models
         public string Correo { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "La contraseña es obligatoria")]
-        [StringLength(25, MinimumLength = 12, ErrorMessage = "La contraseña debe tener entre 12 y 25 caracteres")]
+        [StringLength(255, MinimumLength = 80)]
         public string PasswordHash { get; set; } = string.Empty;
 
-        // Propiedad de navegación a tabla intermedia
+        [JsonIgnore]
         public ICollection<Rol> Roles { get; set; } = new List<Rol>();
+
+        // Propiedad de navegación para saber cuantos usuarios tienen préstamos
+        public ICollection<Prestamo> Prestamos { get; set; } = null!;
     }
 }

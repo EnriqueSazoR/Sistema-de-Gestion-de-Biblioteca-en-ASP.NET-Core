@@ -1,7 +1,12 @@
 using APIBiblioteca.Data;
+using APIBiblioteca.Data.Repository;
+using APIBiblioteca.Data.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Repositorios
+builder.Services.AddScoped<IAutenticacionRepository, AutenticacionRepository>();
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("conexionSQL") ?? throw new InvalidOperationException("Conexion no encontrada");
