@@ -20,7 +20,11 @@ de bases de datos relacionales con Entity Framework Core y consultas avanzadas p
   - Modelos
   - Clases DTO
 
+# Servicios
+- Servicio para generar tokens
+
 # Endpoints hasta el momento
 - Autenticación
-   - POST /api/auth/registro
-   - POST /api/auth/asignar-rol
+   - POST Auth/registro
+   - POST Auth/asignar-rol
+   - POST /Auth/login
