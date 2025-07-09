@@ -25,6 +25,6 @@ de bases de datos relacionales con Entity Framework Core y consultas avanzadas p
 
 # Endpoints hasta el momento
 - Autenticación
-   - POST Auth/registro
-   - POST Auth/asignar-rol
+   - POST /Auth/registro
+   - POST /Auth/asignar-rol
    - POST /Auth/login
