@@ -5,6 +5,7 @@ using BCrypt.Net;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata.Ecma335;
 using Microsoft.AspNetCore.Authorization;
+using APIBiblioteca.Services.IServices;
 
 namespace APIBiblioteca.Controllers
 {
@@ -13,14 +14,31 @@ namespace APIBiblioteca.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAutenticacionRepository _authrepository;
+        private readonly ITokenService _tokenservice;
 
-        public AuthController(IAutenticacionRepository authrepository)
+        public AuthController(IAutenticacionRepository authrepository, ITokenService tokenService)
         {
             _authrepository = authrepository;
+            _tokenservice = tokenService;
+        }
+
+        // Enpoint para login
+        [HttpPost("login")]
+       public async Task<ActionResult> Login([FromBody] UsuarioLoginDTO loginDTO)
+        {
+            var usuario = await _authrepository.InicioSesion(loginDTO.Correo, loginDTO.Password);
+
+            if (usuario == null)
+            {
+                return Unauthorized("Credenciales Inválidas");
+            }
+
+            var token = _tokenservice.GenerarToken(usuario);
+            return Ok(new {Token = token});
         }
 
         // Enpoint para registro
-        [HttpPost("/regitro")]
+        [HttpPost("regitro")]
         public async Task<ActionResult<Usuario>> Registro([FromBody] UsuarioRegistroDTO usuarioRegistroDTO)
         {
 
@@ -44,7 +62,7 @@ namespace APIBiblioteca.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        [HttpPost("/asignar-rol")]
+        [HttpPost("asignar-rol")]
         public async Task<IActionResult> AsignarRol([FromBody] AsignarRolDTO rolDTO)
         {
             var resultado = await _authrepository.AsignarRol(rolDTO.UsuarioID, rolDTO.RolId);
@@ -87,6 +105,16 @@ namespace APIBiblioteca.Controllers
         {
             public int UsuarioID { get; set; }
             public int RolId { get; set; }
+        }
+
+        public class UsuarioLoginDTO
+        {
+            [Required]
+            [EmailAddress(ErrorMessage = "El campo email no cumple con el formato válido")]
+            public string Correo { get; set; }
+
+            [Required(ErrorMessage = "La contraseña es obligatoria")]
+            public string Password { get; set; }
         }
     }
 }

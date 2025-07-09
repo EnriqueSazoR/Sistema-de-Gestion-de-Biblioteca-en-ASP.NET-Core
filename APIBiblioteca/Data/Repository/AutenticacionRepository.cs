@@ -1,5 +1,6 @@
 ﻿using APIBiblioteca.Data.Repository.IRepository;
 using APIBiblioteca.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Routing.Tree;
 using Microsoft.EntityFrameworkCore;
 
@@ -35,11 +36,6 @@ namespace APIBiblioteca.Data.Repository
             return true;
         }
 
-        public Task<Usuario> Login(Usuario usuario)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<Usuario> Registro(Usuario usuario)
         {
             var rolCliente = await _db.Roles.FirstOrDefaultAsync(r => r.NombreRol == "Cliente");
@@ -52,6 +48,27 @@ namespace APIBiblioteca.Data.Repository
 
             await _db.Usuarios.AddAsync(usuario);
             await _db.SaveChangesAsync();
+            return usuario;
+        }
+
+        public async Task<Usuario> InicioSesion(string correo, string password)
+        {
+            var usuario = await _db.Usuarios
+                .FirstOrDefaultAsync(u => u.Correo == correo);
+
+            if (usuario == null)
+            {
+                return null;
+            }
+
+            // Comparamos contraseñas
+            bool passwordValida = BCrypt.Net.BCrypt.Verify(password, usuario.PasswordHash);
+
+            if (!passwordValida)
+            {
+                return null;
+            }
+
             return usuario;
         }
     }
