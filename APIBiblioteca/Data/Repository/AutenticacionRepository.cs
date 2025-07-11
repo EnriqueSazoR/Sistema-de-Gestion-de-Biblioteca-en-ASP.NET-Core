@@ -39,8 +39,13 @@ namespace APIBiblioteca.Data.Repository
         public async Task<Usuario> Registro(Usuario usuario)
         {
             var rolCliente = await _db.Roles.FirstOrDefaultAsync(r => r.NombreRol == "Cliente");
+            
+            if(await _db.Usuarios.AnyAsync(u => u.Correo == usuario.Correo))
+            {
+                throw new Exception("El correo eléctronico ya está asociado a una cuenta");
+            }
 
-            if(rolCliente == null)
+            if (rolCliente == null)
             {
                 throw new Exception("El rol 'Cliente' no existe en la base de datos");
             }
@@ -54,6 +59,7 @@ namespace APIBiblioteca.Data.Repository
         public async Task<Usuario> InicioSesion(string correo, string password)
         {
             var usuario = await _db.Usuarios
+                .Include(r => r.Roles)
                 .FirstOrDefaultAsync(u => u.Correo == correo);
 
             if (usuario == null)

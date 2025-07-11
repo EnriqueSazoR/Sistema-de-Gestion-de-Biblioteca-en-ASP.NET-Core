@@ -6,6 +6,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata.Ecma335;
 using Microsoft.AspNetCore.Authorization;
 using APIBiblioteca.Services.IServices;
+using APIBiblioteca.DTO.Autenticacion;
+using APIBiblioteca.DTO.Roles;
 
 namespace APIBiblioteca.Controllers
 {
@@ -24,7 +26,7 @@ namespace APIBiblioteca.Controllers
 
         // Enpoint para login
         [HttpPost("login")]
-       public async Task<ActionResult> Login([FromBody] UsuarioLoginDTO loginDTO)
+        public async Task<ActionResult> Login([FromBody] UsuarioLoginDTO loginDTO)
         {
             var usuario = await _authrepository.InicioSesion(loginDTO.Correo, loginDTO.Password);
 
@@ -34,87 +36,59 @@ namespace APIBiblioteca.Controllers
             }
 
             var token = _tokenservice.GenerarToken(usuario);
-            return Ok(new {Token = token});
+            return Ok(new { Token = token });
         }
 
         // Enpoint para registro
-        [HttpPost("regitro")]
+        [HttpPost("registro")]
         public async Task<ActionResult<Usuario>> Registro([FromBody] UsuarioRegistroDTO usuarioRegistroDTO)
         {
 
-            var usuario = new Usuario
+            try
             {
-                NombreUsuario = usuarioRegistroDTO.NombreUsuario,
-                Correo = usuarioRegistroDTO.Correo,
-                PasswordHash = BCrypt.Net.BCrypt.HashPassword(usuarioRegistroDTO.Password)
+                var usuario = new Usuario
+                {
+                    NombreUsuario = usuarioRegistroDTO.NombreUsuario,
+                    Correo = usuarioRegistroDTO.Correo,
+                    PasswordHash = BCrypt.Net.BCrypt.HashPassword(usuarioRegistroDTO.Password)
 
-            };
-            
-            await _authrepository.Registro(usuario);
+                };
 
-            var respuestaDTO = new RespuestaUsuarioDTO
+                var token = _tokenservice.GenerarToken(usuario);
+                await _authrepository.Registro(usuario);
+
+                var respuestaDTO = new RespuestaUsuarioDTO
+                {
+                    NombreUsuario = usuario.NombreUsuario,
+                    Correo = usuario.Correo
+                };
+
+                return Ok(new
+                {
+                    mensaje = "Registro Exitoso",
+                    token = token
+                });
+
+            }
+            catch (Exception e)
             {
-                NombreUsuario = usuario.NombreUsuario,
-                Correo = usuario.Correo
-            };
-
-            return Ok(respuestaDTO);
+                return BadRequest(new { error = e.Message });
+            }
         }
 
+        // Endpoint para asignar rol
         [Authorize(Roles = "Admin")]
         [HttpPost("asignar-rol")]
         public async Task<IActionResult> AsignarRol([FromBody] AsignarRolDTO rolDTO)
         {
             var resultado = await _authrepository.AsignarRol(rolDTO.UsuarioID, rolDTO.RolId);
 
-            if(!resultado)
+            if (!resultado)
             {
                 return BadRequest("No se pudo asignar el rol. Verifica si el usuario y el rol existen, o si ya tiene ese rol.");
             }
 
             return Ok("Rol asignado correctamente");
-        }
-
-
-
-
-
-
-        // Clases Dto
-        public class UsuarioRegistroDTO
-        {
-            [Required(ErrorMessage = "El nombre de ususario es obligatorio")]
-            public string NombreUsuario { get; set; }
-
-            [Required]
-            [EmailAddress(ErrorMessage = "El correo no tiene el formato válido")]
-            public string Correo { get; set; }
-
-            [Required(ErrorMessage = "La contraseña es obligatoria")]
-            public string Password { get; set; }
-
-        }
-
-        public class RespuestaUsuarioDTO
-        {
-            public string NombreUsuario { get; set; }
-            public string Correo { get; set; }
-        }
-
-        public class AsignarRolDTO
-        {
-            public int UsuarioID { get; set; }
-            public int RolId { get; set; }
-        }
-
-        public class UsuarioLoginDTO
-        {
-            [Required]
-            [EmailAddress(ErrorMessage = "El campo email no cumple con el formato válido")]
-            public string Correo { get; set; }
-
-            [Required(ErrorMessage = "La contraseña es obligatoria")]
-            public string Password { get; set; }
         }
     }
 }

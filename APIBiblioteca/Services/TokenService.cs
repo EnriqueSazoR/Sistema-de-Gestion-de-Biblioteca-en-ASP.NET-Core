@@ -18,11 +18,17 @@ namespace APIBiblioteca.Services
 
         public string GenerarToken(Usuario usuario)
         {
-            var claims = new[]
+            var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, usuario.Correo),
-                new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString())
+                new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString()),
+                
             };
+
+            foreach(var rol in usuario.Roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, rol.NombreRol));
+            }
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtConfig:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
