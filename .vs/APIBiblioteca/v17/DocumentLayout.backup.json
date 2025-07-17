@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\autenticacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\autenticacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\dto\\autenticacion\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\dto\\autenticacion\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioLoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Autenticacion\\UsuarioLoginDTO.cs",
-              "RelativeDocumentMoniker": "APIBiblioteca\\DTO\\Autenticacion\\UsuarioLoginDTO.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Autenticacion\\UsuarioLoginDTO.cs",
-              "RelativeToolTip": "APIBiblioteca\\DTO\\Autenticacion\\UsuarioLoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T00:04:22.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AutenticacionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\AutenticacionRepository.cs",
-              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\AutenticacionRepository.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\AutenticacionRepository.cs",
-              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\AutenticacionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T23:14:06.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "APIBiblioteca\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "APIBiblioteca\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAE8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T23:04:51.676Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

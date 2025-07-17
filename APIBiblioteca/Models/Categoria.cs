@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace APIBiblioteca.Models
 {
@@ -11,6 +12,7 @@ namespace APIBiblioteca.Models
         public string NombreCategoria { get; set; } = string.Empty;
 
         // Propiedad de navegación
+        [JsonIgnore]
         public List<Libro> Libro { get; set; } = null!;
     }
 }

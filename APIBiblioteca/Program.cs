@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Repositorios y Servicios
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IAutenticacionRepository, AutenticacionRepository>();
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("conexionSQL") ?? throw new InvalidOperationException("Conexion no encontrada");
@@ -47,6 +48,30 @@ builder.Services.AddAuthentication(options =>
 });
 
 var app = builder.Build();
+
+// Middleware para personalizar respuesta para usuarios no autorizados
+app.Use(async (context, next) =>
+{
+    await next();
+
+    if(context.Response.StatusCode == 403)
+    {
+        context.Response.ContentType = "application/json";
+        await context.Response.WriteAsync("{\"error\": \"No tienes permiso para acceder a este recurso\"}");
+    }
+});
+
+// Middleware para personalizar respuesta cuando los usuarios no estan autenticados
+app.Use(async (context, next) =>
+{
+    await next();
+
+    if (context.Response.StatusCode == 401)
+    {
+        context.Response.ContentType = "application/json";
+        await context.Response.WriteAsync("{\"error\": \"No estás autenticado\"}");
+    }
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
