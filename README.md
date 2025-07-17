@@ -3,6 +3,7 @@ de bases de datos relacionales con Entity Framework Core y consultas avanzadas p
 
 # Funcionalidades que tendrá el proyecto
 - Registro y Login
+- Gestión de Categorías
 - Gestión de Libros
 - Gestión de Préstamos
 - Reportes
