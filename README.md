@@ -28,3 +28,8 @@ de bases de datos relacionales con Entity Framework Core y consultas avanzadas p
    - POST /Auth/registro
    - POST /Auth/asignar-rol
    - POST /Auth/login
+
+- Categorías
+   - POST /Categorias/Crear
+   - GET /Categorias/lista-categorias
+   - PUT /Categorias/Actualizar/{id}
