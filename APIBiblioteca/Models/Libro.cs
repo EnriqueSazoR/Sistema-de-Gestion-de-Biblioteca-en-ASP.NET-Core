@@ -13,7 +13,7 @@ namespace APIBiblioteca.Models
         [Required(ErrorMessage = "El autor es obligatorio")]
         public string Autor { get; set; } = string.Empty;
         [Required(ErrorMessage = "Este campo es obligatorio")]
-        public int ISBN { get; set; }
+        public string ISBN { get; set; } = string.Empty;
         [Required(ErrorMessage = "El estado es obligatorio")]
         public bool Estado { get; set; }
 
@@ -21,6 +21,8 @@ namespace APIBiblioteca.Models
         public int IdCategoria { get; set; }
         [ForeignKey("IdCategoria")]
         public Categoria categoria { get; set; } = null!;
+
+        
             
     }
 }

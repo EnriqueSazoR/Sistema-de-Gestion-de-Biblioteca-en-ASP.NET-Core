@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\irepository\\ilibrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\irepository\\ilibrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "APIBiblioteca\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:39:35.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\LibroRepository.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\LibroRepository.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\LibroRepository.cs",
+              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\LibroRepository.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAcwJEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:35:02.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ILibroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\IRepository\\ILibroRepository.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\IRepository\\ILibroRepository.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\IRepository\\ILibroRepository.cs",
+              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\IRepository\\ILibroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:33:19.322Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
