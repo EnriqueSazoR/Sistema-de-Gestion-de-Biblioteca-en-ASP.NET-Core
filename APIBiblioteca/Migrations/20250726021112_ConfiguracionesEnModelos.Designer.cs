@@ -4,6 +4,7 @@ using APIBiblioteca.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APIBiblioteca.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    partial class ApplicationDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250726021112_ConfiguracionesEnModelos")]
+    partial class ConfiguracionesEnModelos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -83,11 +86,11 @@ namespace APIBiblioteca.Migrations
                     b.Property<bool>("Estado")
                         .HasColumnType("bit");
 
-                    b.Property<DateOnly>("FechaDevolucion")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("FechaDevolucion")
+                        .HasColumnType("datetime2");
 
-                    b.Property<DateOnly>("FechaPrestamo")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("FechaPrestamo")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("IdLibro")
                         .HasColumnType("int");

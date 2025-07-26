@@ -14,7 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IAutenticacionRepository, AutenticacionRepository>();
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
-builder.Services.AddScoped<ILibroRepository, LibroRepository>();   
+builder.Services.AddScoped<ILibroRepository, LibroRepository>();
+builder.Services.AddScoped<IPrestamoRepository, PrestamoRepository>();
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("conexionSQL") ?? throw new InvalidOperationException("Conexion no encontrada");

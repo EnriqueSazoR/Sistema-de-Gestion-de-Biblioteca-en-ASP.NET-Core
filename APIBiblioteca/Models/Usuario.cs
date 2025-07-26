@@ -25,6 +25,6 @@ namespace APIBiblioteca.Models
         public ICollection<Rol> Roles { get; set; } = new List<Rol>();
 
         // Propiedad de navegación para saber cuantos usuarios tienen préstamos
-        public ICollection<Prestamo> Prestamos { get; set; } = null!;
+        public ICollection<Prestamo> Prestamos { get; set; } = new List<Prestamo>();
     }
 }

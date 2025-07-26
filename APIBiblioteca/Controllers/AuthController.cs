@@ -54,8 +54,10 @@ namespace APIBiblioteca.Controllers
 
                 };
 
-                var token = _tokenservice.GenerarToken(usuario);
                 await _authrepository.Registro(usuario);
+
+                var token = _tokenservice.GenerarToken(usuario);
+                
 
                 var respuestaDTO = new RespuestaUsuarioDTO
                 {
