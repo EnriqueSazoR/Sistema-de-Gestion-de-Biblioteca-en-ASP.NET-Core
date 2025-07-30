@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\prestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\prestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\irepository\\iprestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\irepository\\iprestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\irepository\\ireporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\irepository\\ireporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\dto\\prestamos\\actualizarprestamodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\dto\\prestamos\\actualizarprestamodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\dto\\reportes\\estadolibrosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\dto\\reportes\\estadolibrosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\dto\\reportes\\librosmasprestadosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\dto\\reportes\\librosmasprestadosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\data\\repository\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\data\\repository\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|c:\\users\\luis sazo\\desktop\\apibiblioteca\\apibiblioteca\\dto\\reportes\\respuestareportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D2B642-21B0-4AD6-9B63-68B2C1671512}|APIBiblioteca\\APIBiblioteca.csproj|solutionrelative:apibiblioteca\\dto\\reportes\\respuestareportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PrestamosController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\PrestamosController.cs",
-              "RelativeDocumentMoniker": "APIBiblioteca\\Controllers\\PrestamosController.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\PrestamosController.cs",
-              "RelativeToolTip": "APIBiblioteca\\Controllers\\PrestamosController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAADkAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "EstadoLibrosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Reportes\\EstadoLibrosDTO.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\DTO\\Reportes\\EstadoLibrosDTO.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Reportes\\EstadoLibrosDTO.cs",
+              "RelativeToolTip": "APIBiblioteca\\DTO\\Reportes\\EstadoLibrosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T03:12:17.67Z",
+              "WhenOpened": "2025-07-30T01:04:31.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibrosMasPrestadosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Reportes\\LibrosMasPrestadosDTO.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\DTO\\Reportes\\LibrosMasPrestadosDTO.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Reportes\\LibrosMasPrestadosDTO.cs",
+              "RelativeToolTip": "APIBiblioteca\\DTO\\Reportes\\LibrosMasPrestadosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:45:12.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\LibroRepository.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\LibroRepository.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\LibroRepository.cs",
+              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\LibroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:25:43.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Program.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Program.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Program.cs",
+              "RelativeToolTip": "APIBiblioteca\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:21:45.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PrestamoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\PrestamoRepository.cs",
-              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\PrestamoRepository.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\PrestamoRepository.cs",
-              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\PrestamoRepository.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAF4AAAAhAAAAAAAAAA==",
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Controllers\\ReportesController.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "APIBiblioteca\\Controllers\\ReportesController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T03:05:50.325Z",
+              "WhenOpened": "2025-07-30T00:17:30.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ActualizarPrestamoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Prestamos\\ActualizarPrestamoDTO.cs",
-              "RelativeDocumentMoniker": "APIBiblioteca\\DTO\\Prestamos\\ActualizarPrestamoDTO.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Prestamos\\ActualizarPrestamoDTO.cs",
-              "RelativeToolTip": "APIBiblioteca\\DTO\\Prestamos\\ActualizarPrestamoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "RespuestaReporteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Reportes\\RespuestaReporteDTO.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\DTO\\Reportes\\RespuestaReporteDTO.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\DTO\\Reportes\\RespuestaReporteDTO.cs",
+              "RelativeToolTip": "APIBiblioteca\\DTO\\Reportes\\RespuestaReporteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T03:04:21.206Z",
+              "WhenOpened": "2025-07-29T23:59:34.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReporteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\ReporteRepository.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\ReporteRepository.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\ReporteRepository.cs",
+              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\ReporteRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T23:55:24.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IPrestamoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\IRepository\\IPrestamoRepository.cs",
-              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\IRepository\\IPrestamoRepository.cs",
-              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\IRepository\\IPrestamoRepository.cs",
-              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\IRepository\\IPrestamoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
+              "Title": "IReporteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\IRepository\\IReporteRepository.cs",
+              "RelativeDocumentMoniker": "APIBiblioteca\\Data\\Repository\\IRepository\\IReporteRepository.cs",
+              "ToolTip": "C:\\Users\\Luis Sazo\\Desktop\\APIBiblioteca\\APIBiblioteca\\Data\\Repository\\IRepository\\IReporteRepository.cs",
+              "RelativeToolTip": "APIBiblioteca\\Data\\Repository\\IRepository\\IReporteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T03:03:27.78Z",
+              "WhenOpened": "2025-07-29T23:54:02.524Z",
               "EditorCaption": ""
             }
           ]

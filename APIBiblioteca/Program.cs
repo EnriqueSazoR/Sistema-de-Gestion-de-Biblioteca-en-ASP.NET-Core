@@ -16,6 +16,7 @@ builder.Services.AddScoped<IAutenticacionRepository, AutenticacionRepository>();
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<ILibroRepository, LibroRepository>();
 builder.Services.AddScoped<IPrestamoRepository, PrestamoRepository>();
+builder.Services.AddScoped<IReporteRepository, ReporteRepository>();
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("conexionSQL") ?? throw new InvalidOperationException("Conexion no encontrada");
