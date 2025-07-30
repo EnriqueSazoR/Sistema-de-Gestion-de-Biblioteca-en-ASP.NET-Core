@@ -24,7 +24,7 @@ de bases de datos relacionales con Entity Framework Core y consultas avanzadas p
 # Servicios
 - Servicio para generar tokens
 
-# Endpoints hasta el momento
+# Endpoints
 - Autenticación
    - POST /Auth/registro
    - POST /Auth/asignar-rol
@@ -46,3 +46,9 @@ de bases de datos relacionales con Entity Framework Core y consultas avanzadas p
     - POST /Pretamos/Prestamo
     - GET /Prestamos
     - PUT /Prestamos/Devolver/{id}
+
+- Reporteria
+     - GET /Reportes/PrestamosUsuarios
+     - GET /Reportes/PrestamosUsuario/nombre/{nombreUsuario}
+     - GET /Reportes/LibrosMasPrestados
+     - GET /Reportes/EstadoLibro/{titulo}
