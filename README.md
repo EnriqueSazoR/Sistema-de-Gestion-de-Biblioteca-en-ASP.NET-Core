@@ -37,7 +37,12 @@ de bases de datos relacionales con Entity Framework Core y consultas avanzadas p
  
 - Libros
    - POST /Libros/Crear
-   - GET{id} /Libros/{id}
+   - GET /Libros/{id}
    - GET /Libros/lista-libros
    - PUT /Libros/Actualizar/{id}
    - DELETE /Libros/Eliminar/{id}
+ 
+- Prestamos
+    - POST /Pretamos/Prestamo
+    - GET /Prestamos
+    - PUT /Prestamos/Devolver/{id}
